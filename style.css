@@ -13,6 +13,7 @@
  /*text css above hero image*/
  .hero_title{
   font-size: 4.5rem;
+  color: aquamarine;
  }
 
  .hero_desc{
@@ -60,7 +61,12 @@
 
  /*display backgound color black on navbar scroll*/
  .navbarSrcoll.navbarDark{
-  background-color: black;
+  background-color: bisque;
+ }
+
+ /*name written in the left upside corner*/
+ .navbar-brand{
+  color: aquamarine;
  }
 
  /*social media icons styling*/
@@ -86,4 +92,14 @@
  #footer{
   background-color: #808080;
   text-align: center;
+ }
+
+ /*spacing on all sections*/
+ #about, #services, #portfolio, #contact{
+  margin-top: 4rem;
+  padding-top: 4rem;
+ }
+
+ #contact{
+  padding-bottom: 4rem;
  }
